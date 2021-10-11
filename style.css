@@ -12,12 +12,20 @@ color:   #986265;
 display:grid;
 align-content: center;
 justify-content: center;
-  
+
 }
 
 .panel{
   display:grid;
-  align-content: center;
+  align-self: center;
   justify-content: center;
+  padding: 50 px;
+  border: 50 px;
+
+}
+
+.button {
+align-content: center;
+text-align: center;
 
 }
