@@ -7,3 +7,17 @@ color:   #986265;
 .link:visited{
   color:   #986265;
 }
+
+.wrapper {
+display:grid;
+align-content: center;
+justify-content: center;
+  
+}
+
+.panel{
+  display:grid;
+  align-content: center;
+  justify-content: center;
+
+}
