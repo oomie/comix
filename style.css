@@ -6,6 +6,7 @@ body {
 
 .ctitle{
 font-family: 'Gloria Hallelujah', cursive;
+font-size: 70px;
 text-align: center;
 color: #4C70C1
 }
@@ -26,13 +27,35 @@ justify-content: center;
 
 }
 
+.itemcont{
+display: grid;
+align-content: center;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: auto;
+grid-template-areas:
+"button1 image"
+"button2 image"
+}
+
+.item1{
+grid-area: button1;
+align-content: flex-end;
+}
+.item2{
+grid-area: image;
+}
+.item3{
+grid-area: button2;
+align-content: flex-end;
+}
+
+
 .arrow{
 align-content: center;
 }
 
 .panel{
   display:grid;
-  /* width: 1000vw; */
   align-self: center;
   justify-content: center;
   padding: 50 px;
