@@ -1,3 +1,8 @@
+body {
+  margin: 25px;
+  align-content: center;
+  background-color: #CCDBFD
+}
 
 .link {
 text-decoration: none;
