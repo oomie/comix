@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("img:first-child").click(function(){
+    $("img:nth-child(1)").click(function(){
         $(this).attr("src", "images/ferrari1.png");
     });
 });
@@ -17,7 +17,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("img:nth-child(4)").click(function(){
+    $("img:last-child").click(function(){
         $(this).attr("src", "images/ferrari4.png");
     });
 });
