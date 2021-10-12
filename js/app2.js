@@ -5,6 +5,14 @@ $(document).ready(function(){
     });
 });
 
+var text = new Howl({
+  src: ['sounds/sparkle.mp3'],
+  html5: true
+});
+
+$("img:nth-child(2)").click(function(){
+  text.play();
+
 $(document).ready(function(){
     $("img:nth-child(2)").click(function(){
         $(this).attr("src", "images/ferrari2.png");
@@ -26,4 +34,4 @@ $(document).ready(function(){
 });
 
 
-  AOS.init();
+AOS.init();
