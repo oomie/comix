@@ -19,9 +19,20 @@
   <div class="item1"> <a href="page3a.html">
   <img src="images/ferraributton.jpg" alt="ferrari button" width= "350px" height="350px">
   </a> </div>
- <div class="item2">
- <img src="images/friendbus.jpg" alt="on the way" width= "600px">
+
+  <audio id="bus">
+  <source src="sounds/bus.mp3" type="audio/mpeg">
+  </audio>
+ <div class="item2 audio">
+ <img onclick="playAudio()" src="images/friendbus.jpg" alt="on the way" width= "600px">
 </div>
+<script>
+  var a = document.getElementById("bus")
+
+  function playAudio() {
+    a.play();
+  }
+</script>
  <div class="item3"> <a href="page3b.html">
  <img src="images/louvrebutton.jpg" alt="louvre button" width= "350px" height="350px">
 </a> </div>

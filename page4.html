@@ -12,9 +12,19 @@
   <body>
 <!-- Back to the dorm
 1 panel drawn by toomie -->
-<div class="panel">
-  <img data-aos="fade-up" src="images/lastpanel.JPEG" width="600px" alt="Back home!">
+<audio id="outside">
+<source src="sounds/outside.mp3" type="audio/mpeg">
+</audio>
+<div data-aos="fade-up" class="panel audio">
+  <img onclick="playAudio()" src="images/lastpanel.JPEG" width="600px" alt="Back home!">
 </div>
+<script>
+  var a = document.getElementById("outside")
+
+  function playAudio() {
+    a.play();
+  }
+</script>
 
 <a class="button" href="index.html">
 <img src="images/leftarrow.png" alt="back to start" width="150px">
