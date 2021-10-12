@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("img:eq(0)").click(function(){
+    $("img:first").click(function(){
         $(this).attr("src", "images/ferrari1.png");
     });
 });
