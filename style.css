@@ -49,7 +49,7 @@ align-content: center;
 
 
 .button {
-align-content: center;
-text-align: center;
+  align-content: center;
+  display: block;
 
 }
