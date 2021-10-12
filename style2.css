@@ -4,6 +4,30 @@ body {
   background-color: #CCDBFD
 }
 
+.ferrari1 {
+  display: grid;
+  align-self: center;
+  justify-content: center;
+}
+
+.ferrari2 {
+  display: grid;
+  align-self: center;
+  justify-content: center;
+}
+
+.ferrari3 {
+  display: grid;
+  align-self: center;
+  justify-content: center;
+}
+
+.ferrari4 {
+  display: grid;
+  align-self: center;
+  justify-content: center;
+}
+
 .link {
 text-decoration: none;
 color:   #986265;
