@@ -52,11 +52,20 @@ body {
   justify-content: center;
 }
 
-.link {
-text-decoration: none;
-color:   #986265;
+.louvrelogo {
+  display: grid;
+  align-self: center;
+  justify-content: center;
 }
 
-.link:visited{
-  color:   #986265;
+.ferrarilogo {
+  display: grid;
+  align-self: center;
+  justify-content: center;
+}
+
+.button {
+  display: grid;
+  align-self: center;
+  justify-content: center;
 }

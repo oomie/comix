@@ -1,7 +1,16 @@
+
 $(document).ready(function(){
     $("img:eq(0)").click(function(){
         $(this).attr("src", "images/louvre1.png");
     });
+});
+
+var sound = new Howl({
+  src: ['sounds/louvre.mp3']
+});
+
+louvre1.addEventListener('click', function() {
+sound.play();
 });
 
 $(document).ready(function(){
@@ -21,6 +30,5 @@ $(document).ready(function(){
         $(this).attr("src", "images/louvre4.png");
     });
 });
-
 
 AOS.init();

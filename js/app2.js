@@ -43,7 +43,7 @@ var sound3 = new Howl({
 });
 
 playBtn3.addEventListener('click', function() {
-sound2.play();
+sound3.play();
 });
 
 
