@@ -7,7 +7,6 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("img:nth-child(2)").click(function(){
-        // Change src attribute of image
         $(this).attr("src", "images/ferrari2.png");
     });
 });
