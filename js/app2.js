@@ -38,6 +38,15 @@ playBtn2.addEventListener('click', function() {
 sound2.play();
 });
 
+var sound3 = new Howl({
+  src: ['sounds/falling.mp3']
+});
+
+playBtn3.addEventListener('click', function() {
+sound2.play();
+});
+
+
 var sound4 = new Howl({
   src: ['sounds/sparkle.mp3']
 });
