@@ -27,9 +27,19 @@
 <div class="wrapper">
 
   <!-- Panel 1 - opening eyes, alarm sound -->
-  <div data-aos="fade-left" class="panel" , "alarm">
-  <img src="images/wakeup.gif" alt="panel 1" width= "1600px" >
+  <audio id="alarm">
+  <source src="alarm.mp3" type="audio/mpeg">
+  </audio>
+  <div data-aos="fade-left" class="panel" , "alarmc">
+  <img onclick="playAudio()" src="images/wakeup.gif" alt="panel 1" width= "600px" >
  </div>
+ <script>
+   var x = document.getElementById("alarm")
+
+   function playAudio() {
+     x.play();
+   }
+ </script>
 <!-- Panel 2 - messy room, balloon text -->
   <div data-aos="fade-up" class="panel">
   <img src="images/intro.JPG" alt="panel 2">

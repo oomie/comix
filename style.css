@@ -32,14 +32,14 @@ align-content: center;
 
 .panel{
   display:grid;
-  width: 1000vw;
+  /* width: 1000vw; */
   align-self: center;
   justify-content: center;
   padding: 50 px;
   border: 100 px;
 }
 
-.alarm{
+.alarmc{
   cursor: pointer;
   display: grid;
   justify-content: center;
