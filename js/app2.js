@@ -5,6 +5,7 @@ $(document).ready(function(){
     });
 });
 
+
 $(document).ready(function(){
     $("img:nth-child(2)").click(function(){
         $(this).attr("src", "images/ferrari2.png");
@@ -26,4 +27,4 @@ $(document).ready(function(){
 });
 
 
-  AOS.init();
+AOS.init();
