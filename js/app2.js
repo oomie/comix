@@ -22,4 +22,28 @@ $(document).ready(function(){
     });
 });
 
+var sound = new Howl({
+  src: ['sounds/suspense.mp3']
+});
+
+playBtn1.addEventListener('click', function() {
+sound.play();
+});
+
+var sound2 = new Howl({
+  src: ['sounds/heavenly.mp3']
+});
+
+playBtn2.addEventListener('click', function() {
+sound2.play();
+});
+
+var sound4 = new Howl({
+  src: ['sounds/sparkle.mp3']
+});
+
+playBtn4.addEventListener('click', function() {
+sound4.play();
+});
+
 AOS.init();
