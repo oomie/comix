@@ -28,9 +28,9 @@
 
   <!-- Panel 1 - opening eyes, alarm sound -->
   <audio id="alarm">
-  <source src="alarm.mp3" type="audio/mpeg">
+  <source src="sounds/alarm.mp3" type="audio/mpeg">
   </audio>
-  <div data-aos="fade-left" class="panel" , "alarmc">
+  <div data-aos="fade-up" class="panel" , "alarmc">
   <img onclick="playAudio()" src="images/wakeup.gif" alt="panel 1" width= "600px" >
  </div>
  <script>
@@ -45,9 +45,19 @@
   <img src="images/intro.JPG" alt="panel 2">
   </div>
   <!-- Panel 3 - text message - text sound -->
+  <audio id="text">
+  <source src="sounds/text.mp3" type="audio/mpeg">
+  </audio>
   <div data-aos="fade-up" class="panel">
-  <img src="images/message.JPG" alt="panel 3">
+  <img onclick="playAudio()" src="images/message.JPG" alt="panel 3">
   </div>
+  <script>
+    var x = document.getElementById("text")
+
+    function playAudio() {
+      x.play();
+    }
+  </script>
 
   </div>
 <a class="button" href="page2.html">

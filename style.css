@@ -32,6 +32,7 @@ display: grid;
 align-content: center;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
+grid-column-gap: none;
 grid-template-areas:
 "button1 image"
 "button2 image"
