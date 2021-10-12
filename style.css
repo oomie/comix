@@ -50,6 +50,9 @@ grid-area: button2;
 align-content: flex-end;
 }
 
+.audio{
+cursor: pointer;
+}
 
 .arrow{
 align-content: center;

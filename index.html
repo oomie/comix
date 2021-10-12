@@ -27,28 +27,29 @@
 <div class="wrapper">
 
   <!-- Panel 1 - opening eyes, alarm sound -->
-  <audio id="alarm">
+  <!-- <audio id="alarm">
   <source src="sounds/alarm.mp3" type="audio/mpeg">
-  </audio>
+  </audio> -->
   <div data-aos="fade-up" class="panel" , "alarmc">
-  <img onclick="playAudio()" src="images/wakeup.gif" alt="panel 1" width= "600px" >
+  <img src="images/wakeup.gif" alt="panel 1" width= "600px" >
  </div>
- <script>
+ <!-- <script>
    var x = document.getElementById("alarm")
 
    function playAudio() {
      x.play();
    }
- </script>
+ </script> -->
 <!-- Panel 2 - messy room, balloon text -->
   <div data-aos="fade-up" class="panel">
   <img src="images/intro.JPG" alt="panel 2">
   </div>
+
   <!-- Panel 3 - text message - text sound -->
   <audio id="text">
   <source src="sounds/text.mp3" type="audio/mpeg">
   </audio>
-  <div data-aos="fade-up" class="panel">
+  <div data-aos="fade-up" class="panel audio">
   <img onclick="playAudio()" src="images/message.JPG" alt="panel 3">
   </div>
   <script>
