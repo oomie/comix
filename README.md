@@ -3,12 +3,14 @@
  
  Documentation:
  Comic name:  City Tripping
+
 Team members: Toomie, Dilnaz, Yeva, Bato
+
 Note from Bato: Please draw each character, background, as well as balloon text in separate layers so we can make adjustments easier later-on. This also applies to items you’d like to use for interactivity or animation.
 
-Character 1 details: NYUAD student, female, ...
+Character 1 details: NYUAD student, female, her name is Maya.
 
-Character 2 details: Main character’s friend, please describe appearance here
+Character 2 details: Main character’s friend, her name is Beena
 
 Page 1:
 Description: Our main character, depressed in their room after a long week of assignments and deadlines
@@ -18,12 +20,14 @@ Drawn by:  DIlnaz
 Interactivity idea: text sound on panel 2
 Panel 1 - messy room, balloon text
 Panel 2 - text message 
+
 Page 2:
 Description: Friends meet outside, decide on the route - Louvre, “Let’s goooo” enter the shuttle, 
 Drawn by: Dilnaz
 Interactivity idea: outdoor sounds, 2 buttons
 Panel 1 - Friends meet outside (Trees, Road, Main character’s hand)
 Panel 2 - Get on the shuttle - choices: Louvre and Ferrari World
+
 Page 3A:
 Description: Ferrari World
 Drawn by: Yeva
@@ -32,6 +36,7 @@ Panel 1 - No, I don’t think I can do this (looks at high roller coater)
 Panel 2 - friend says “you can do this!!”
 Panel 3 - goes down the roller coaster
 Panel 4: “I diiiiiid it”
+
 Page 3B:
 Description: Louvre, Different Paintings, 
 Drawn by: Yeva
