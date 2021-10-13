@@ -9,7 +9,7 @@
 
 # Documentation of the process (Copied from the Google doc)
 
-Note from Bato: Please draw each character, background, as well as balloon text, in separate layers so we can make adjustments easier later-on. This also applies to items you’d like to use for interactivity or animation.
+Note from Bato: Please draw each character, background, as well as balloon text in separate layers so we can make adjustments easier later-on. This also applies to items you’d like to use for interactivity or animation.
 
 # Page 1:
 Description: Our main character, depressed in their room after a long week of assignments and deadlines
